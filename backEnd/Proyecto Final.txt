@@ -1,0 +1,22 @@
+primero ejecutar backup de la bd
+clonar repositorio
+npm init
+
+
+
+repositorio: https://github.com/Strikeed456/modulo3/tree/main/backEnd
+
+endpoint
+
+get usuarios: localhost:3000/api/getusuario
+post usuario: localhost:3000/api/postUsuario
+body post: 
+{
+    "nombre_usuario": "test",
+    "edad": 40,
+    "email": "jsxxx"
+}
+
+promedio edad: localhost:3000/api/promedioEdadUsuario
+
+status api: localhost:3000/api/statusUsuario
